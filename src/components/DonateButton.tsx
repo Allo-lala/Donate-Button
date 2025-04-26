@@ -12,7 +12,7 @@ const DonateButton: React.FC = () => {
     <div className="donate-container">
       <button
         onClick={openModal}
-        className="flex items-center gap-2 px-6 py-3 text-white font-medium bg-gradient-to-r from-purple-600 to-indigo-600 rounded-full shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200"
+        className="flex items-center gap-2 px-6 py-3 text-white font-medium bg-gradient-to-r from-blue-600 to-indigo-600 rounded-full shadow-md hover:shadow-lg transform hover:-translate-y-0.5 transition-all duration-200"
         aria-label="Donate Now"
       >
         <Heart className="h-5 w-5" />

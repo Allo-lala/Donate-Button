@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
 import DonationAmount from './DonationAmount';
-import StripeButton from './StripeButton';
 import PayPalButton from './PayPalButton';
 import MobileMoneyButton from './MobileMoneyButton';
 
@@ -121,7 +120,6 @@ const DonationModal: React.FC<DonationModalProps> = ({ onClose }) => {
           </div>
 
           <div className="space-y-3">
-            <StripeButton amount={amount} disabled={amount <= 0 || !!error} />
             <PayPalButton amount={amount} disabled={amount <= 0 || !!error} />
             <MobileMoneyButton amount={amount} disabled={amount <= 0 || !!error} />
           </div>
