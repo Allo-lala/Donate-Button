@@ -88,7 +88,7 @@ const DonationModal: React.FC<DonationModalProps> = ({ onClose }) => {
               <button
                 className={`py-3 px-4 rounded-lg text-center border transition-all ${
                   isCustom 
-                    ? 'border-blue-500 bg-purple-50 text-blue-600 dark:bg-blue-900 dark:bg-opacity-20 dark:text-blue-300' 
+                    ? 'border-blue-500 bg-blue-50 text-blue-600 dark:bg-blue-900 dark:bg-opacity-20 dark:text-blue-300' 
                     : 'border-gray-300 text-gray-600 hover:border-gray-400 dark:border-gray-600 dark:text-gray-400 dark:hover:border-gray-500'
                 }`}
                 onClick={activateCustomAmount}
@@ -105,7 +105,7 @@ const DonationModal: React.FC<DonationModalProps> = ({ onClose }) => {
                     type="text"
                     value={customAmount}
                     onChange={handleCustomAmountChange}
-                    className="w-full py-3 px-8 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-purple-500 dark:bg-gray-700 dark:text-white"
+                    className="w-full py-3 px-8 border border-gray-300 dark:border-gray-600 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-white"
                     placeholder="Enter amount"
                     autoFocus
                   />
