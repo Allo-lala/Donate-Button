@@ -53,7 +53,7 @@ const MobileMoneyButton: React.FC<MobileMoneyButtonProps> = ({ amount, disabled 
               <img src="/mtn-logo.png" alt="MTN Logo" className="w-10 h-10" />
 
 
-              {/* <span>MTN</span> */}
+              <span>MTN Mobile Money</span>
             </button>
 
             <button
@@ -67,7 +67,7 @@ const MobileMoneyButton: React.FC<MobileMoneyButtonProps> = ({ amount, disabled 
               <img src="/airtel-logo.png" alt="Airtel Logo" className="w-10 h-10" />
 
 
-              {/* <span></span> */}
+              <span>Airtel Mobile Money</span>
             </button>
           </div>
 

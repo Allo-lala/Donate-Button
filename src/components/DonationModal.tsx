@@ -69,7 +69,7 @@ const DonationModal: React.FC<DonationModalProps> = ({ onClose }) => {
 
         <div className="p-6">
           <p className="mb-4 text-gray-600 dark:text-gray-300">
-            Choose an amount to donate. Your contribution helps us continue our mission.
+            Choose an amount to donate. Your contribution helps YHAY to continue its mission.
           </p>
           
           <div className="mb-6">
