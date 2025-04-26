@@ -88,7 +88,7 @@ const DonationModal: React.FC<DonationModalProps> = ({ onClose }) => {
               <button
                 className={`py-3 px-4 rounded-lg text-center border transition-all ${
                   isCustom 
-                    ? 'border-purple-500 bg-purple-50 text-purple-600 dark:bg-purple-900 dark:bg-opacity-20 dark:text-purple-300' 
+                    ? 'border-blue-500 bg-purple-50 text-blue-600 dark:bg-blue-900 dark:bg-opacity-20 dark:text-blue-300' 
                     : 'border-gray-300 text-gray-600 hover:border-gray-400 dark:border-gray-600 dark:text-gray-400 dark:hover:border-gray-500'
                 }`}
                 onClick={activateCustomAmount}
@@ -115,7 +115,7 @@ const DonationModal: React.FC<DonationModalProps> = ({ onClose }) => {
             )}
 
             <div className="text-xl font-medium text-center my-4">
-              You will donate: <span className="text-purple-600 dark:text-purple-400">${(isCustom && !customAmount) ? '0.00' : amount.toFixed(2)}</span>
+              You will donate: <span className="text-blue-600 dark:text-blue-400">${(isCustom && !customAmount) ? '0.00' : amount.toFixed(2)}</span>
             </div>
           </div>
 

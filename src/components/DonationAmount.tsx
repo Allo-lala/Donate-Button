@@ -11,7 +11,7 @@ const DonationAmount: React.FC<DonationAmountProps> = ({ value, isSelected, onSe
     <button
       className={`py-3 px-4 rounded-lg text-center border transition-all ${
         isSelected 
-          ? 'border-purple-500 bg-purple-50 text-purple-600 dark:bg-purple-900 dark:bg-opacity-20 dark:text-purple-300' 
+          ? 'border-blue-500 bg-purple-50 text-blue-600 dark:bg-blue-900 dark:bg-opacity-20 dark:text-blue-300' 
           : 'border-gray-300 text-gray-600 hover:border-gray-400 dark:border-gray-600 dark:text-gray-400 dark:hover:border-gray-500'
       }`}
       onClick={() => onSelect(value)}

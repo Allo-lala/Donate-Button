@@ -4,10 +4,10 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 flex flex-col items-center justify-center p-6">
       <div className="w-full max-w-4xl bg-white dark:bg-gray-800 rounded-2xl shadow-xl overflow-hidden">
-        <div className="bg-gradient-to-r from-purple-600 to-indigo-600 p-8 text-white">
+        <div className="bg-gradient-to-r from-blue-600 to-indigo-600 p-8 text-white">
           <h1 className="text-3xl font-bold mb-2">Support Our Mission</h1>
           <p className="text-purple-100 max-w-2xl">
-            Your donation helps us continue our important work. Every contribution, no matter the size, makes a difference.
+            Your donation helps us continue our important work. Every contribution, makes a difference.
           </p>
         </div>
         
@@ -26,10 +26,6 @@ function App() {
                 <li className="flex items-start">
                   <span className="mr-2 text-green-500">✓</span>
                   Expand our reach to help more people
-                </li>
-                <li className="flex items-start">
-                  <span className="mr-2 text-green-500">✓</span>
-                  Develop new programs and resources
                 </li>
                 <li className="flex items-start">
                   <span className="mr-2 text-green-500">✓</span>
@@ -53,7 +49,7 @@ function App() {
       
       <div className="mt-8 text-center text-sm text-gray-500 dark:text-gray-400">
         <p>
-          100% secure payments. All donations are tax-deductible.
+          100% secure payments. All donations to YHAY are tax-deductible.
         </p>
       </div>
     </div>

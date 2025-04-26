@@ -31,11 +31,11 @@ const PayPalButton: React.FC<PayPalButtonProps> = ({ amount, disabled }) => {
           onApprove: async (_: any, actions: any) => {
             const order = await actions.order.capture();
             console.log('Payment completed', order);
-            alert('Payment successful!');
+            alert('Thank you! Donation successful!');
           },
           onError: (err: any) => {
             console.error('PayPal error:', err);
-            alert('Payment failed. Please try again.');
+            alert('Donation failed. Please try again.');
           }
         }).render('#paypal-button-container');
       }
