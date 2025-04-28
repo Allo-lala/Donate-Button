@@ -53,21 +53,21 @@ const MobileMoneyButton: React.FC<MobileMoneyButtonProps> = ({ amount, disabled 
               <img src="/mtn-logo.png" alt="MTN Logo" className="w-10 h-10" />
 
 
-              <span>MTN Mobile Money</span>
+              <span>MTN Money</span>
             </button>
 
             <button
               onClick={() => setProvider('airtel')}
               className={`flex items-center justify-center gap-2 flex-1 py-2 px-4 rounded-lg font-medium transition-all ${
                 provider === 'airtel'
-                  ? 'bg-white-500 text-white'
+                  ? 'bg-red-500 text-white'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
               }`}
             >
               <img src="/airtel-logo.png" alt="Airtel Logo" className="w-10 h-10" />
 
 
-              <span>Airtel Mobile Money</span>
+              <span>Airtel Money</span>
             </button>
           </div>
 

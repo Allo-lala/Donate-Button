@@ -36,9 +36,9 @@ function App() {
             
             <div className="space-y-6 flex flex-col items-center justify-center">
               <div className="text-center space-y-4">
-                <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">Make a Difference Today</h2>
+                {/* <h2 className="text-2xl font-semibold text-gray-800 dark:text-white">Your impact willl be felt</h2> */}
                 <p className="text-gray-600 dark:text-gray-300">
-                  Your donation is secure and helps support our mission.
+                  {/* Your donation is secure and helps support our mission. */}
                 </p>
                 <DonateButton />
               </div>
