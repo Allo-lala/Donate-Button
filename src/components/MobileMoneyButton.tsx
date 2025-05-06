@@ -50,8 +50,7 @@ const MobileMoneyButton: React.FC<MobileMoneyButtonProps> = ({ amount, disabled 
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
               }`}
             >
-              <img src="/mtn-logo.png" alt="MTN Logo" className="w-10 h-10" />
-
+              {/* <img src="/mtn-logo.png" alt="MTN Logo" className="w-10 h-10" /> */}
 
               <span>MTN Money</span>
             </button>
@@ -64,8 +63,7 @@ const MobileMoneyButton: React.FC<MobileMoneyButtonProps> = ({ amount, disabled 
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200 dark:bg-gray-700 dark:text-gray-300'
               }`}
             >
-              <img src="/airtel-logo.png" alt="Airtel Logo" className="w-10 h-10" />
-
+              {/* <img src="/airtel-logo.png" alt="Airtel Logo" className="w-10 h-10" /> */}
 
               <span>Airtel Money</span>
             </button>
