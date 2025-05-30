@@ -54,7 +54,7 @@ const DonationModal: React.FC<DonationModalProps> = ({ onClose }) => {
       onClick={handleBackdropClick}
     >
       <div 
-        className="bg-white dark:bg-gray-800 rounded-xl shadow-xl w-full max-w-md mx-4 transform transition-all animate-fadeIn"
+        className="bg-white dark:bg-gray-800 rounded-xl shadow-xl w-full max-w-md mx-4 transform transition-all animate-fadeIn max-h-screen overflow-y-auto"
         onClick={e => e.stopPropagation()}
       >
         <div className="flex justify-between items-center p-6 border-b border-gray-200 dark:border-gray-700">
